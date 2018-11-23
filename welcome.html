@@ -1,17 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml2/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <title>Welcome to Dandelion Way</title>
-<link rel="shortcut icon" href="https://rawgit.com/dw-hb/landing/hub/dway.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://gitcdn.xyz/repo/dw-hb/landing/hub/dway.ico" type="image/x-icon" />
 
 <head>
     <meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|PT+Sans:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://rawgit.com/dw-hb/global/css/base.css" rel="stylesheet">
-	<link href="https://rawgit.com/dw-hb/global/css/fancy.css" rel="stylesheet">
-    <link href="https://rawgit.com/Hebgbs/plugthemes/master/fonts/MyraidPro.css" rel="stylesheet">
+    <!-- <link href="https://gitcdn.xyz/repo/dw-hb/global/css/base.css" rel="stylesheet">
+	<link href="https://gitcdn.xyz/repo/dw-hb/global/css/fancy.css" rel="stylesheet"> -->
+    <link href="https://gitcdn.xyz/repo/Hebgbs/plugthemes/master/fonts/MyraidPro.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <script type="text/javascript" src="https://rawgit.com/Hebgbs/Hebgbs.github.io/master/ddaccordion.js">
+    <script type="text/javascript" src="https://gitcdn.xyz/repo/Hebgbs/Hebgbs.github.io/master/ddaccordion.js">
         /***********************************************
          * Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
          * Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
@@ -69,11 +69,335 @@
         })*/
 		shard: 'https://cl5.widgetbot.io'
     </script>
+	
+	<style type="text/css">
+BODY {
+  color: #fff;
+  font-family: Myraid Pro,
+               PT Sans,
+			   Ubuntu Sans,
+			   sans-serif;
+}
+
+:root {
+  --brh: 20px;
+}
+
+CODE,
+PRE,
+TABLE.pre TD,
+UL LI.pre {
+  font-family: Inconsolata,
+               Consolas,
+			   Ubuntu Mono,
+			   monospace;
+}
+
+PRE {
+  margin: 0;
+  display: block;
+}
+
+P {
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  margin: 0;
+}
+
+TABLE.pre {
+  width: 100%;
+  border: 2px solid #777;
+  border-collapse: collapse;
+}
+
+TABLE.pre TH {
+  text-align: left;
+}
+
+TABLE.pre TH,
+TABLE.pre TD {
+  border: 1px solid #777;
+}
+
+.section H2,
+.option H3 {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.body A:visited,
+.msg A:visited {
+  color: #fff;
+}
+
+.inner {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.inner.body {
+  padding: 10px;
+}
+
+.inset {
+  padding: 20px;
+  margin: 20px 10px;
+  background-color: rgba(51, 51, 51, 0.5);
+  border: 2px solid #777;
+}
+
+.inset PRE {
+  line-height: 1.15;
+}
+
+PRE,
+TABLE.pre {
+  background-color: transparent;
+}
+
+.body A {
+  color: white;
+  text-shadow: 0px 0px 6px #333,
+   0px 0px 6px #333;
+}
+
+.warn A {
+  color: #f22;
+  text-shadow: 0px 0px 6px #400505,
+   0px 0px 6px #400505;
+}
+
+.info A {
+  color: #22f;
+  text-shadow: 0px 0px 6px #050540,
+   0px 0px 6px #050540
+}
+
+.good A {
+  color: #2f2;
+  text-shadow: 0px 0px 6px #054005,
+   0px 0px 6px #054005;
+}
+
+.busy A {
+  color: #ff2;
+  text-shadow: 0px 0px 6px #404005,
+   0px 0px 6px #404005;
+}
+
+.msg{
+  padding: 5px 10px;
+}
+
+.headless {
+  padding-bottom: 5px;
+}
+
+.ctr {
+  text-align: center;
+}
+
+.msg H2,
+UL,
+OL {
+  margin: 0px;
+}
+
+.busy:not(.end),
+.warn:not(.end),
+.info:not(.end),
+.good:not(.end) {
+  font-weight: bold;
+}
+	
+	.end {
+	  font-weight: normal;
+	}
+
+DIV.msg:not(.bdr) {
+  border: none;
+}
+
+LI.success {
+  list-style-image: url("https://i.imgur.com/X8670Cs.png");
+}
+
+LI.failure {
+  list-style-image: url("https://i.imgur.com/rpSQgsn.png");
+}
+
+LI.txtli,
+.txtli LI {
+  list-style: none;
+  position: relative;
+  left: -1em;
+}
+
+.fauxol {
+  display: inline-block;
+  width: 1.25em;
+}
+
+UL.intl LI,
+LI.intl {
+  list-style-type: initial;
+  position: initial;
+  left: 0;
+}
+
+.body:not(.inner) {
+  padding: 16px 10px 0 10px;
+}
+
+.hl1 {
+  color: #0f0;
+}
+
+.hl2 {
+  color: #0ff;
+}
+
+.hl3 {
+  color: #ff0;
+}
+
+.hl4 {
+  color: #f0f;
+}
+
+.hl5 {
+  color: #f00;
+}
+
+.br {
+  margin-bottom: var(--brh);
+}
+
+.brh {
+  height: var(--brh);
+}
+
+:not(.headless).end:not(.inner) {
+  padding-bottom: 20px;
+}
+
+.nobr {
+  margin-top: 0;
+}
+
+H3.nobr {
+  margin-bottom: 0;
+}
+
+TD {
+  vertical-align: center;
+}
+
+.guide {
+  margin: 5px 0;
+  padding: 0;
+  width: 100%;
+  /*width of menu*/
+  border-bottom-width: 0;
+}
+
+.guide a.item.section,
+.guide A.item.option:not(.msg) {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.guide a.item,
+.guide a.option {
+  color: white;
+  display: block;
+  position: relative;
+  /*To help in the anchoring of the ".statusicon" icon image*/
+  width: auto;
+  padding: .01px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.guide a.item {
+  margin-top: 20px;
+}
+
+.guide a.option {
+  margin-top: 10px;
+}
+
+.guide a.option:first-child {
+  margin-top: 0;
+}
+
+.guide a.item:visited,
+.guide a.option:visited,
+.guide .item:active,
+.guide .option:active {
+  color: white;
+}
+
+.guide a.item .statusicon {
+  /*CSS for icon image that gets dynamically added to headers*/
+  /* position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none; */
+  display: none;
+  /* I don't need this, but I can't figure out how to remove it so it disappears instead. -- Hebgbs */
+}
+
+/*DIVs that contains each sub menu*/
+.guide div.ins {
+  background: rgba(51, 51, 51, 0.5);
+}
+
+.guide div.nestins {
+  background: linear-gradient(to bottom, rgba(51, 51, 51, 0.5), rgba(51, 51, 51, 0.5)),
+  url(https://gitcdn.xyz/repo/dw-hb/global/img/dandy.png) no-repeat fixed center/cover;
+}
+
+BODY {
+  background: url(https://gitcdn.xyz/repo/dw-hb/global/img/dandy.png) no-repeat fixed center/cover #151515;
+}
+
+.busy {
+  background: linear-gradient(to bottom,
+                              rgba(64, 64, 5, 0.5),
+							  rgba(64, 64, 5, 0.5)),
+  url(https://gitcdn.xyz/repo/dw-hb/global/img/bdandy.png) no-repeat fixed center/cover #404005;
+  border-top: 2px solid #ff2;
+}
+
+.warn {
+  background: linear-gradient(to bottom, 
+                              rgba(64, 5, 5, 0.5),
+                              rgba(64, 5, 5, 0.5)),
+  url(https://gitcdn.xyz/repo/dw-hb/global/img/wdandy.png) no-repeat fixed center/cover #400505;
+  border-top: 2px solid #f22;
+}
+
+.info {
+  background: linear-gradient(to bottom,
+                              rgba(5, 5, 64, 0.5),
+							  rgba(5, 5, 64, 0.5)),
+  url(https://gitcdn.xyz/repo/dw-hb/global/img/idandy.png) no-repeat fixed center/cover #050540;
+  border-top: 2px solid #22f;
+}
+
+.good {
+  background: linear-gradient(to bottom,
+                              rgba(5, 64, 5, 0.5),
+							  rgba(5, 64, 5, 0.5)),
+  url(https://gitcdn.xyz/repo/dw-hb/global/img/gdandy.png) no-repeat fixed center/cover #054005;
+  border-top: 2px solid #2f2;
+}
+	</style>
 </head>
 
 <body>
     <h1 class="ctr">Welcome to Dandelion Way</h1>
     <div class="guide">
+	    		    <div class="ctr bdr busy msg">This is a test message. This has a lot of text, like, <i>a lot</i> of text. There is so much text here because this is a test block for messages which do not have a head, because I wanted these messages to not have some funky space on the bottom which also has a border on top. Because I thought it looked funny I would try to modify the base CSS of this website which contains an absolute fuckload of code, because I figured it would look better without the padding on the bottom as it servs the same purpose... as... a headed message... but... fuck. Maybe I am taking the wrong approach, maybe it's something else which may work who knows.</div>
         <a class="item section" id="guides"> <h2 class="ctr">Guides</h2> </a>
         <div class="ins">
             <div class="good msg ctr bdr">This is probably what you came here for. If you have an interest in the Dandelion Way community, expand the following section after this to learn more!</div>
@@ -93,8 +417,8 @@
                         <p><b>Reading time: 1:00:00</b></p>
                         <p class="br"><b>Performance time: 1:30:00 - 4:00:00 (<i>depending on capability</i>)</b></p>
                         <p>Due to the nature of how complicated this process can be, if you are lost you are <i>highly encouraged</i> to ask for help. Despite this being a highly simplified guide it is still possible to mess this up, real bad.</p>
-                        <p><b><a href="https://rawgit.com/dw-hb/3dscfw/guide/fancy.html">Click here to begin!</a></b><p>
-						<p><small><b><a href="https://rawgit.com/dw-hb/3dscfw/guide/basic.html">(Low bandwidth or poor connection? Click here.)</a></b></small><p>
+                        <p><b><a href="https://gitcdn.xyz/repo/dw-hb/3dscfw/guide/fancy.html">Click here to begin!</a></b><p>
+						<p><small><b><a href="https://gitcdn.xyz/repo/dw-hb/3dscfw/guide/basic.html">(Low bandwidth or poor connection? Click here.)</a></b></small><p>
                     </div>
                 </div>
                 <a class="item option"><h3 class="ctr">Wii: Homebrew the easy way (RVL-001 / RVL-101) <i>alpha</i></h3></a>
@@ -111,7 +435,7 @@
                         <p>The end result of following this guide will yield a softmodded RVL-001 / RVL-101 Wii with replacement WiiConnect24 service.</p>
                         <p><b>Reading time: 0:45:00</b></p>
                         <p class="br">Performance time: 1:00:00 - 3:00:00 (<i>depending on capability</i>)</p>
-                        <p><b><a href="https://rawgit.com/dw-hb/wiihb/guide/fancy.html">Click here to begin!</a></b></p>
+                        <p><b><a href="https://gitcdn.xyz/repo/dw-hb/wiihb/guide/fancy.html">Click here to begin!</a></b></p>
 						<p><small><b>(No low-bandwidth version available yet.)</b></small><p>
                         <p><i>As this is alpha material, some instructions may be inaccurate. The act of modifying this console is 100% complete, auxiliary information fixes pending!</i></p>
                     </div>
